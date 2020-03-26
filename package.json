@@ -1,7 +1,8 @@
 {
   "name": "code-conventions",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://frejp.github.io/veris",
   "dependencies": {
     "@reduxjs/toolkit": "^1.2.5",
     "@testing-library/jest-dom": "^4.2.4",
@@ -34,6 +35,7 @@
     "eslint-plugin-react-hooks": "^2.3.0",
     "eslint-plugin-unicorn": "^16.1.1",
     "formik": "^2.1.4",
+    "gh-pages": "^2.2.0",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.2",
     "lodash": "^4.17.15",
@@ -52,6 +54,8 @@
     "yup": "^0.28.3"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
