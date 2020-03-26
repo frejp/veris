@@ -32,7 +32,7 @@ https://github.com/erikras/ducks-modular-redux
 The folder/file structure and the way components is imported follows my 
 conventions defined in this project: 
 
-https://github.com/frejp/conventions/
+https://github.com/frejp/code-conventions
 
 Eslint and Prettier is also available.
 
