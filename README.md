@@ -27,8 +27,8 @@ password: 123456789
 
 These are the technologies used: 
 
-React, Redux with Redux Toolkit (awesome, and the official opionated way to start a redux project), Typescript
-Styled Components, React-Router. 
+React, Redux with Redux Toolkit (awesome, and the official opionated way to start a redux project), Typescript,
+Styled Components, React-Router, Forms with Formik and Yup.
 Using the new redux hooks (useSelector,useDispatch).
 Also partly inspired by the 'ducks' way of structuring redux in folders and files.
 https://github.com/erikras/ducks-modular-redux
