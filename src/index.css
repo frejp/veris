@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: rgb(240, 240, 240);
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+@media screen and (min-width: 679px) {
+  .hide-for-desktop {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 679px) {
+  .hide-for-mobile {
+    display: none !important;
+  }
+}
+
+.dangerously-override-border {
+  box-shadow: 0 1px 3px 0 white, 0 0 0 1px white !important;
+}
+
+@font-face {
+  font-family: 'SimplonNorm-Bold';
+  src: local('SimplonNorm-Bold'), url(fonts/simplonnorm-bold-webfont.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'SimplonNorm-Bold';
+  src: local('SimplonNorm-Bold'), url(fonts/simplonnorm-bold-webfont.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'SimplonNorm-Medium';
+  src: local('SimplonNorm-Medium'), url(fonts/simplonnorm-medium-webfont.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'SimplonNorm-Medium';
+  src: local('SimplonNorm-Medium'), url(fonts/simplonnorm-medium-webfont.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'SimplonNorm-Regular';
+  src: local('SimplonNorm-Regular'), url(fonts/SimplonNorm-Regular-WebS.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'SimplonNorm-Regular';
+  src: local('SimplonNorm-Regular'), url(fonts/SimplonNorm-Regular-WebS.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'FreightTextProBook-Italic';
+  src: local('FreightTextProBook-Italic'), url(fonts/FreigTexMedIta.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'FreightTextProBook-Italic';
+  src: local('FreightTextProBook-Italic'), url(fonts/FreigTexMedIta.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'FreightTextProBook-Regular';
+  src: local('FreightTextProBook-Regular'), url(fonts/FreightTextProBook.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'FreightMedium';
+  src: local('FreigTexMed'), url(fonts/FreigTexMed.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'FreightMedium';
+  src: local('FreigTexMed'), url(fonts/FreigTexMed.woff2) format('woff');
+}
